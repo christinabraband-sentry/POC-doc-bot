@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Meeting: Intro Meet",
+    "description": "Goals, challenges, technical requirements, success criteria",
+    "sort_order": 1
+  },
+  {
+    "title": "Create Collaborative Slack Channel",
+    "description": "",
+    "sort_order": 2
+  },
+  {
+    "title": "POC Kick Off",
+    "description": "1. Confirm Value Framework\n2. Confirm Scope\n3. Review POC Plan\n4. Setup check-in schedule\n5. Enable Trial for uncapped ingestion\n6. Review Integrations",
+    "sort_order": 3
+  },
+  {
+    "title": "Post Kick-off TODOs",
+    "description": "1. Deploy SDKs\n2. Enable Errors, Tracing, and Replays\n3. Start on Integrations (Slack, GitHub)\n4. Loop in customer Legal, Security, or Operations as needed",
+    "sort_order": 4
+  },
+  {
+    "title": "POC Check-in #1",
+    "description": "1. Review Data from SDK instrumentation\n2. Review Critical Experiences\n3. Initial review of data",
+    "sort_order": 5
+  },
+  {
+    "title": "Post Check-in #1 TODOs",
+    "description": "1. Enable Integrations as needed\n2. Enrich Events\n3. Set up repos for Seer",
+    "sort_order": 6
+  },
+  {
+    "title": "POC Check-in #2",
+    "description": "1. Enrich Events: Tags, Breadcrumbs, environment, and other context\n2. Review Seer usage\n3. Build Critical Experience Dashboard\n4. Other Integrations\n5. Sentry workflow-issue attribution with CODEOWNERS or Ownership Rules",
+    "sort_order": 7
+  },
+  {
+    "title": "Post Check-in #2 TODOs",
+    "description": "",
+    "sort_order": 8
+  },
+  {
+    "title": "POC Check-in #3",
+    "description": "1. Remaining questions and determine remaining tasks\n2. Q&A",
+    "sort_order": 9
+  },
+  {
+    "title": "Post Check-in #3 TODOs",
+    "description": "",
+    "sort_order": 10
+  },
+  {
+    "title": "Commercial Discussion Start",
+    "description": "",
+    "sort_order": 11
+  },
+  {
+    "title": "Procurement Process",
+    "description": "MSA & DPA",
+    "sort_order": 12
+  },
+  {
+    "title": "POC Completed",
+    "description": "",
+    "sort_order": 13
+  },
+  {
+    "title": "Customer Start Date",
+    "description": "",
+    "sort_order": 14
+  }
+]

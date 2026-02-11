@@ -1,0 +1,414 @@
+{
+  "platforms": {
+    "javascript": {
+      "display_name": "JavaScript",
+      "base_url": "https://docs.sentry.io/platforms/javascript/",
+      "guides": {
+        "react": {
+          "display_name": "React",
+          "base_url": "https://docs.sentry.io/platforms/javascript/guides/react/"
+        },
+        "nextjs": {
+          "display_name": "Next.js",
+          "base_url": "https://docs.sentry.io/platforms/javascript/guides/nextjs/"
+        },
+        "remix": {
+          "display_name": "Remix",
+          "base_url": "https://docs.sentry.io/platforms/javascript/guides/remix/"
+        },
+        "vue": {
+          "display_name": "Vue",
+          "base_url": "https://docs.sentry.io/platforms/javascript/guides/vue/"
+        },
+        "angular": {
+          "display_name": "Angular",
+          "base_url": "https://docs.sentry.io/platforms/javascript/guides/angular/"
+        },
+        "svelte": {
+          "display_name": "Svelte",
+          "base_url": "https://docs.sentry.io/platforms/javascript/guides/svelte/"
+        },
+        "sveltekit": {
+          "display_name": "SvelteKit",
+          "base_url": "https://docs.sentry.io/platforms/javascript/guides/sveltekit/"
+        },
+        "ember": {
+          "display_name": "Ember",
+          "base_url": "https://docs.sentry.io/platforms/javascript/guides/ember/"
+        },
+        "gatsby": {
+          "display_name": "Gatsby",
+          "base_url": "https://docs.sentry.io/platforms/javascript/guides/gatsby/"
+        },
+        "astro": {
+          "display_name": "Astro",
+          "base_url": "https://docs.sentry.io/platforms/javascript/guides/astro/"
+        },
+        "nuxt": {
+          "display_name": "Nuxt",
+          "base_url": "https://docs.sentry.io/platforms/javascript/guides/nuxt/"
+        },
+        "solidstart": {
+          "display_name": "SolidStart",
+          "base_url": "https://docs.sentry.io/platforms/javascript/guides/solidstart/"
+        }
+      }
+    },
+    "node": {
+      "display_name": "Node.js",
+      "base_url": "https://docs.sentry.io/platforms/node/",
+      "guides": {
+        "express": {
+          "display_name": "Express",
+          "base_url": "https://docs.sentry.io/platforms/node/guides/express/"
+        },
+        "fastify": {
+          "display_name": "Fastify",
+          "base_url": "https://docs.sentry.io/platforms/node/guides/fastify/"
+        },
+        "koa": {
+          "display_name": "Koa",
+          "base_url": "https://docs.sentry.io/platforms/node/guides/koa/"
+        },
+        "nestjs": {
+          "display_name": "NestJS",
+          "base_url": "https://docs.sentry.io/platforms/node/guides/nestjs/"
+        },
+        "hapi": {
+          "display_name": "Hapi",
+          "base_url": "https://docs.sentry.io/platforms/node/guides/hapi/"
+        },
+        "aws-lambda": {
+          "display_name": "AWS Lambda (Node)",
+          "base_url": "https://docs.sentry.io/platforms/node/guides/aws-lambda/"
+        },
+        "gcp-functions": {
+          "display_name": "GCP Functions (Node)",
+          "base_url": "https://docs.sentry.io/platforms/node/guides/gcp-functions/"
+        }
+      }
+    },
+    "python": {
+      "display_name": "Python",
+      "base_url": "https://docs.sentry.io/platforms/python/",
+      "guides": {
+        "django": {
+          "display_name": "Django",
+          "base_url": "https://docs.sentry.io/platforms/python/integrations/django/"
+        },
+        "flask": {
+          "display_name": "Flask",
+          "base_url": "https://docs.sentry.io/platforms/python/integrations/flask/"
+        },
+        "fastapi": {
+          "display_name": "FastAPI",
+          "base_url": "https://docs.sentry.io/platforms/python/integrations/fastapi/"
+        },
+        "celery": {
+          "display_name": "Celery",
+          "base_url": "https://docs.sentry.io/platforms/python/integrations/celery/"
+        },
+        "aws-lambda": {
+          "display_name": "AWS Lambda (Python)",
+          "base_url": "https://docs.sentry.io/platforms/python/integrations/aws-lambda/"
+        },
+        "gcp-functions": {
+          "display_name": "GCP Functions (Python)",
+          "base_url": "https://docs.sentry.io/platforms/python/integrations/gcp-functions/"
+        },
+        "starlette": {
+          "display_name": "Starlette",
+          "base_url": "https://docs.sentry.io/platforms/python/integrations/starlette/"
+        },
+        "aiohttp": {
+          "display_name": "AIOHTTP",
+          "base_url": "https://docs.sentry.io/platforms/python/integrations/aiohttp/"
+        }
+      }
+    },
+    "react-native": {
+      "display_name": "React Native",
+      "base_url": "https://docs.sentry.io/platforms/react-native/",
+      "guides": {
+        "expo": {
+          "display_name": "Expo",
+          "base_url": "https://docs.sentry.io/platforms/react-native/manual-setup/expo/"
+        }
+      }
+    },
+    "apple": {
+      "display_name": "Apple",
+      "base_url": "https://docs.sentry.io/platforms/apple/",
+      "guides": {
+        "ios": {
+          "display_name": "iOS",
+          "base_url": "https://docs.sentry.io/platforms/apple/guides/ios/"
+        },
+        "macos": {
+          "display_name": "macOS",
+          "base_url": "https://docs.sentry.io/platforms/apple/guides/macos/"
+        },
+        "tvos": {
+          "display_name": "tvOS",
+          "base_url": "https://docs.sentry.io/platforms/apple/guides/tvos/"
+        },
+        "watchos": {
+          "display_name": "watchOS",
+          "base_url": "https://docs.sentry.io/platforms/apple/guides/watchos/"
+        },
+        "visionos": {
+          "display_name": "visionOS",
+          "base_url": "https://docs.sentry.io/platforms/apple/guides/visionos/"
+        }
+      }
+    },
+    "android": {
+      "display_name": "Android",
+      "base_url": "https://docs.sentry.io/platforms/android/",
+      "guides": {}
+    },
+    "java": {
+      "display_name": "Java",
+      "base_url": "https://docs.sentry.io/platforms/java/",
+      "guides": {
+        "spring-boot": {
+          "display_name": "Spring Boot",
+          "base_url": "https://docs.sentry.io/platforms/java/guides/spring-boot/"
+        },
+        "spring": {
+          "display_name": "Spring",
+          "base_url": "https://docs.sentry.io/platforms/java/guides/spring/"
+        },
+        "logback": {
+          "display_name": "Logback",
+          "base_url": "https://docs.sentry.io/platforms/java/guides/logback/"
+        },
+        "log4j2": {
+          "display_name": "Log4j 2",
+          "base_url": "https://docs.sentry.io/platforms/java/guides/log4j2/"
+        }
+      }
+    },
+    "dotnet": {
+      "display_name": ".NET",
+      "base_url": "https://docs.sentry.io/platforms/dotnet/",
+      "guides": {
+        "aspnetcore": {
+          "display_name": "ASP.NET Core",
+          "base_url": "https://docs.sentry.io/platforms/dotnet/guides/aspnetcore/"
+        },
+        "aspnet": {
+          "display_name": "ASP.NET",
+          "base_url": "https://docs.sentry.io/platforms/dotnet/guides/aspnet/"
+        },
+        "maui": {
+          "display_name": "MAUI",
+          "base_url": "https://docs.sentry.io/platforms/dotnet/guides/maui/"
+        },
+        "wpf": {
+          "display_name": "WPF",
+          "base_url": "https://docs.sentry.io/platforms/dotnet/guides/wpf/"
+        },
+        "winforms": {
+          "display_name": "WinForms",
+          "base_url": "https://docs.sentry.io/platforms/dotnet/guides/winforms/"
+        },
+        "azure-functions": {
+          "display_name": "Azure Functions",
+          "base_url": "https://docs.sentry.io/platforms/dotnet/guides/azure-functions/"
+        }
+      }
+    },
+    "go": {
+      "display_name": "Go",
+      "base_url": "https://docs.sentry.io/platforms/go/",
+      "guides": {
+        "http": {
+          "display_name": "net/http",
+          "base_url": "https://docs.sentry.io/platforms/go/guides/http/"
+        },
+        "gin": {
+          "display_name": "Gin",
+          "base_url": "https://docs.sentry.io/platforms/go/guides/gin/"
+        },
+        "echo": {
+          "display_name": "Echo",
+          "base_url": "https://docs.sentry.io/platforms/go/guides/echo/"
+        },
+        "fiber": {
+          "display_name": "Fiber",
+          "base_url": "https://docs.sentry.io/platforms/go/guides/fiber/"
+        }
+      }
+    },
+    "ruby": {
+      "display_name": "Ruby",
+      "base_url": "https://docs.sentry.io/platforms/ruby/",
+      "guides": {
+        "rails": {
+          "display_name": "Rails",
+          "base_url": "https://docs.sentry.io/platforms/ruby/guides/rails/"
+        },
+        "sidekiq": {
+          "display_name": "Sidekiq",
+          "base_url": "https://docs.sentry.io/platforms/ruby/guides/sidekiq/"
+        }
+      }
+    },
+    "php": {
+      "display_name": "PHP",
+      "base_url": "https://docs.sentry.io/platforms/php/",
+      "guides": {
+        "laravel": {
+          "display_name": "Laravel",
+          "base_url": "https://docs.sentry.io/platforms/php/guides/laravel/"
+        },
+        "symfony": {
+          "display_name": "Symfony",
+          "base_url": "https://docs.sentry.io/platforms/php/guides/symfony/"
+        }
+      }
+    },
+    "kotlin": {
+      "display_name": "Kotlin",
+      "base_url": "https://docs.sentry.io/platforms/kotlin-multiplatform/",
+      "guides": {}
+    },
+    "dart": {
+      "display_name": "Dart",
+      "base_url": "https://docs.sentry.io/platforms/dart/",
+      "guides": {
+        "flutter": {
+          "display_name": "Flutter",
+          "base_url": "https://docs.sentry.io/platforms/flutter/"
+        }
+      }
+    },
+    "elixir": {
+      "display_name": "Elixir",
+      "base_url": "https://docs.sentry.io/platforms/elixir/",
+      "guides": {}
+    },
+    "rust": {
+      "display_name": "Rust",
+      "base_url": "https://docs.sentry.io/platforms/rust/",
+      "guides": {}
+    },
+    "unity": {
+      "display_name": "Unity",
+      "base_url": "https://docs.sentry.io/platforms/unity/",
+      "guides": {}
+    },
+    "unreal": {
+      "display_name": "Unreal Engine",
+      "base_url": "https://docs.sentry.io/platforms/unreal/",
+      "guides": {}
+    }
+  },
+  "doc_sections": {
+    "getting_started": "",
+    "configuration": "configuration/",
+    "error_monitoring": "usage/",
+    "performance": "tracing/",
+    "session_replay": "session-replay/",
+    "profiling": "profiling/",
+    "releases": "configuration/releases/",
+    "source_maps": "sourcemaps/",
+    "data_management": "data-management/sensitive-data/",
+    "environments": "configuration/environments/",
+    "enriching_events": "enriching-events/",
+    "user_feedback": "user-feedback/",
+    "breadcrumbs": "enriching-events/breadcrumbs/",
+    "context": "enriching-events/context/",
+    "tags": "enriching-events/tags/",
+    "set_user": "enriching-events/identify-user/"
+  },
+  "product_docs": {
+    "alerts": "https://docs.sentry.io/product/alerts/",
+    "issue_alerts": "https://docs.sentry.io/product/alerts/alert-types/#issue-alerts",
+    "metric_alerts": "https://docs.sentry.io/product/alerts/alert-types/#metric-alerts",
+    "uptime_monitoring": "https://docs.sentry.io/product/alerts/uptime-monitoring/",
+    "dashboards": "https://docs.sentry.io/product/dashboards/",
+    "discover": "https://docs.sentry.io/product/explore/discover-queries/",
+    "ownership_rules": "https://docs.sentry.io/product/issues/ownership-rules/",
+    "issue_grouping": "https://docs.sentry.io/product/data-management-settings/event-grouping/",
+    "fingerprint_rules": "https://docs.sentry.io/product/data-management-settings/event-grouping/fingerprint-rules/",
+    "codeowners": "https://docs.sentry.io/product/integrations/source-code-mgmt/github/#code-owners",
+    "slack_integration": "https://docs.sentry.io/organization/integrations/notification/slack/",
+    "jira_integration": "https://docs.sentry.io/organization/integrations/issue-tracking/jira/",
+    "github_integration": "https://docs.sentry.io/organization/integrations/source-code-mgmt/github/",
+    "pagerduty_integration": "https://docs.sentry.io/organization/integrations/notification/pagerduty/",
+    "release_health": "https://docs.sentry.io/product/releases/health/",
+    "releases": "https://docs.sentry.io/product/releases/",
+    "sso_setup": "https://docs.sentry.io/organization/authentication/sso/",
+    "seer": "https://docs.sentry.io/product/explore/seer/",
+    "session_replay": "https://docs.sentry.io/product/explore/session-replay/",
+    "profiling": "https://docs.sentry.io/product/explore/profiling/",
+    "performance": "https://docs.sentry.io/product/performance/",
+    "user_feedback": "https://docs.sentry.io/product/user-feedback/",
+    "projects": "https://docs.sentry.io/product/projects/",
+    "data_scrubbing": "https://docs.sentry.io/product/data-management-settings/scrubbing/",
+    "server_side_scrubbing": "https://docs.sentry.io/product/data-management-settings/scrubbing/server-side-scrubbing/",
+    "inbound_filters": "https://docs.sentry.io/product/data-management-settings/filtering/",
+    "web_vitals": "https://docs.sentry.io/product/insights/web-vitals/",
+    "requests_module": "https://docs.sentry.io/product/insights/requests/",
+    "queries_module": "https://docs.sentry.io/product/insights/queries/",
+    "assets_module": "https://docs.sentry.io/product/insights/assets/",
+    "caches_module": "https://docs.sentry.io/product/insights/caches/",
+    "queues_module": "https://docs.sentry.io/product/insights/queues/",
+    "llm_monitoring": "https://docs.sentry.io/product/insights/llm-monitoring/",
+    "distributed_tracing": "https://docs.sentry.io/concepts/tracing/distributed-tracing/",
+    "suspect_commits": "https://docs.sentry.io/product/issues/suspect-commits/",
+    "stack_trace_linking": "https://docs.sentry.io/organization/integrations/source-code-mgmt/github/#stack-trace-linking"
+  },
+  "integration_docs": {
+    "slack": {
+      "display_name": "Slack",
+      "url": "https://docs.sentry.io/organization/integrations/notification/slack/"
+    },
+    "jira": {
+      "display_name": "Jira",
+      "url": "https://docs.sentry.io/organization/integrations/issue-tracking/jira/"
+    },
+    "jira_server": {
+      "display_name": "Jira Server",
+      "url": "https://docs.sentry.io/organization/integrations/issue-tracking/jira-server/"
+    },
+    "github": {
+      "display_name": "GitHub",
+      "url": "https://docs.sentry.io/organization/integrations/source-code-mgmt/github/"
+    },
+    "github_actions": {
+      "display_name": "GitHub Actions",
+      "url": "https://docs.sentry.io/product/releases/setup/release-automation/github-actions/"
+    },
+    "gitlab": {
+      "display_name": "GitLab",
+      "url": "https://docs.sentry.io/organization/integrations/source-code-mgmt/gitlab/"
+    },
+    "bitbucket": {
+      "display_name": "Bitbucket",
+      "url": "https://docs.sentry.io/organization/integrations/source-code-mgmt/bitbucket/"
+    },
+    "pagerduty": {
+      "display_name": "PagerDuty",
+      "url": "https://docs.sentry.io/organization/integrations/notification/pagerduty/"
+    },
+    "opsgenie": {
+      "display_name": "Opsgenie",
+      "url": "https://docs.sentry.io/organization/integrations/notification/opsgenie/"
+    },
+    "msteams": {
+      "display_name": "Microsoft Teams",
+      "url": "https://docs.sentry.io/organization/integrations/notification/msteams/"
+    },
+    "linear": {
+      "display_name": "Linear",
+      "url": "https://docs.sentry.io/organization/integrations/issue-tracking/linear/"
+    },
+    "vercel": {
+      "display_name": "Vercel",
+      "url": "https://docs.sentry.io/organization/integrations/deployment/vercel/"
+    }
+  }
+}

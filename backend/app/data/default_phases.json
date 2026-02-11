@@ -1,0 +1,387 @@
+[
+  {
+    "phase_number": 1,
+    "title": "Initial Setup",
+    "description": "Get your Sentry organization created and core SDKs deployed with essential features enabled.",
+    "tasks": [
+      {
+        "title": "Organization created",
+        "resource_url": "https://sentry.io/signup/",
+        "resource_label": "Sentry Signup",
+        "is_optional": false,
+        "sort_order": 1
+      },
+      {
+        "title": "Set up SSO",
+        "resource_url": "https://docs.sentry.io/organization/authentication/sso/",
+        "resource_label": "SSO Documentation",
+        "is_optional": false,
+        "sort_order": 2
+      },
+      {
+        "title": "Create Project(s) in Sentry",
+        "resource_url": "https://docs.sentry.io/product/projects/",
+        "resource_label": "Projects Documentation",
+        "is_optional": false,
+        "sort_order": 3
+      },
+      {
+        "title": "Add Sentry SDK to your application",
+        "resource_url": null,
+        "resource_label": null,
+        "is_optional": false,
+        "sort_order": 4
+      },
+      {
+        "title": "Verify error capture is working",
+        "resource_url": null,
+        "resource_label": null,
+        "is_optional": false,
+        "sort_order": 5
+      },
+      {
+        "title": "Enable Performance Monitoring",
+        "resource_url": "https://docs.sentry.io/product/performance/",
+        "resource_label": "Performance Monitoring Docs",
+        "is_optional": false,
+        "sort_order": 6
+      },
+      {
+        "title": "Enable Session Replay",
+        "resource_url": "https://docs.sentry.io/product/explore/session-replay/",
+        "resource_label": "Session Replay Docs",
+        "is_optional": false,
+        "sort_order": 7
+      },
+      {
+        "title": "Enable Profiling",
+        "resource_url": "https://docs.sentry.io/product/explore/profiling/",
+        "resource_label": "Profiling Docs",
+        "is_optional": true,
+        "sort_order": 8
+      },
+      {
+        "title": "Enable User Feedback",
+        "resource_url": "https://docs.sentry.io/product/user-feedback/",
+        "resource_label": "User Feedback Docs",
+        "is_optional": true,
+        "sort_order": 9
+      }
+    ]
+  },
+  {
+    "phase_number": 2,
+    "title": "Setting up Sentry for Success",
+    "description": "Configure environments, releases, source maps, enrich events, and set up data scrubbing for production readiness.",
+    "tasks": [
+      {
+        "title": "Configure Environments",
+        "resource_url": "https://docs.sentry.io/product/sentry-basics/environments/",
+        "resource_label": "Environments Docs",
+        "is_optional": false,
+        "sort_order": 1
+      },
+      {
+        "title": "Set up Releases",
+        "resource_url": "https://docs.sentry.io/product/releases/",
+        "resource_label": "Releases Docs",
+        "is_optional": false,
+        "sort_order": 2
+      },
+      {
+        "title": "Upload Source Maps",
+        "resource_url": null,
+        "resource_label": null,
+        "is_optional": false,
+        "sort_order": 3
+      },
+      {
+        "title": "Enrich Events with Tags",
+        "resource_url": null,
+        "resource_label": null,
+        "is_optional": false,
+        "sort_order": 4
+      },
+      {
+        "title": "Add Breadcrumbs for debugging context",
+        "resource_url": null,
+        "resource_label": null,
+        "is_optional": false,
+        "sort_order": 5
+      },
+      {
+        "title": "Set User Context on events",
+        "resource_url": null,
+        "resource_label": null,
+        "is_optional": false,
+        "sort_order": 6
+      },
+      {
+        "title": "Configure Data Scrubbing / Sensitive Data",
+        "resource_url": "https://docs.sentry.io/product/data-management-settings/scrubbing/",
+        "resource_label": "Data Scrubbing Docs",
+        "is_optional": false,
+        "sort_order": 7
+      },
+      {
+        "title": "Set up Server-Side Scrubbing rules",
+        "resource_url": "https://docs.sentry.io/product/data-management-settings/scrubbing/server-side-scrubbing/",
+        "resource_label": "Server-Side Scrubbing Docs",
+        "is_optional": true,
+        "sort_order": 8
+      },
+      {
+        "title": "Configure SDK-level filtering (beforeSend / beforeSendTransaction)",
+        "resource_url": null,
+        "resource_label": null,
+        "is_optional": true,
+        "sort_order": 9
+      },
+      {
+        "title": "Review and configure Inbound Filters",
+        "resource_url": "https://docs.sentry.io/product/data-management-settings/filtering/",
+        "resource_label": "Inbound Filters Docs",
+        "is_optional": true,
+        "sort_order": 10
+      }
+    ]
+  },
+  {
+    "phase_number": 3,
+    "title": "Full Value From Performance",
+    "description": "Optimize performance monitoring with custom instrumentation, web vitals tracking, and framework-specific configurations.",
+    "tasks": [
+      {
+        "title": "Review Web Vitals overview",
+        "resource_url": "https://docs.sentry.io/product/insights/web-vitals/",
+        "resource_label": "Web Vitals Docs",
+        "is_optional": false,
+        "sort_order": 1
+      },
+      {
+        "title": "Add custom spans for key operations",
+        "resource_url": null,
+        "resource_label": null,
+        "is_optional": false,
+        "sort_order": 2
+      },
+      {
+        "title": "Configure tracesSampleRate for production",
+        "resource_url": null,
+        "resource_label": null,
+        "is_optional": false,
+        "sort_order": 3
+      },
+      {
+        "title": "Set up custom transactions for critical user flows",
+        "resource_url": null,
+        "resource_label": null,
+        "is_optional": false,
+        "sort_order": 4
+      },
+      {
+        "title": "Review Requests module",
+        "resource_url": "https://docs.sentry.io/product/insights/requests/",
+        "resource_label": "Requests Module Docs",
+        "is_optional": false,
+        "sort_order": 5
+      },
+      {
+        "title": "Review Queries module (Database performance)",
+        "resource_url": "https://docs.sentry.io/product/insights/queries/",
+        "resource_label": "Queries Module Docs",
+        "is_optional": false,
+        "sort_order": 6
+      },
+      {
+        "title": "Review Assets module (Resource loading)",
+        "resource_url": "https://docs.sentry.io/product/insights/assets/",
+        "resource_label": "Assets Module Docs",
+        "is_optional": true,
+        "sort_order": 7
+      },
+      {
+        "title": "Review Caches module",
+        "resource_url": "https://docs.sentry.io/product/insights/caches/",
+        "resource_label": "Caches Module Docs",
+        "is_optional": true,
+        "sort_order": 8
+      },
+      {
+        "title": "Review Queues module",
+        "resource_url": "https://docs.sentry.io/product/insights/queues/",
+        "resource_label": "Queues Module Docs",
+        "is_optional": true,
+        "sort_order": 9
+      },
+      {
+        "title": "Review LLMs module (if applicable)",
+        "resource_url": "https://docs.sentry.io/product/insights/llm-monitoring/",
+        "resource_label": "LLM Monitoring Docs",
+        "is_optional": true,
+        "sort_order": 10
+      },
+      {
+        "title": "Set up Distributed Tracing across services",
+        "resource_url": "https://docs.sentry.io/concepts/tracing/distributed-tracing/",
+        "resource_label": "Distributed Tracing Docs",
+        "is_optional": true,
+        "sort_order": 11
+      }
+    ]
+  },
+  {
+    "phase_number": 4,
+    "title": "Achieve Workflow Improvements",
+    "description": "Set up ownership rules, issue grouping, alerts, dashboards, and Seer to streamline your development workflow.",
+    "tasks": [
+      {
+        "title": "Configure Ownership Rules",
+        "resource_url": "https://docs.sentry.io/product/issues/ownership-rules/",
+        "resource_label": "Ownership Rules Docs",
+        "is_optional": false,
+        "sort_order": 1
+      },
+      {
+        "title": "Set up CODEOWNERS",
+        "resource_url": "https://docs.sentry.io/product/integrations/source-code-mgmt/github/#code-owners",
+        "resource_label": "CODEOWNERS Docs",
+        "is_optional": false,
+        "sort_order": 2
+      },
+      {
+        "title": "Review and tune Issue Grouping",
+        "resource_url": "https://docs.sentry.io/product/data-management-settings/event-grouping/",
+        "resource_label": "Issue Grouping Docs",
+        "is_optional": false,
+        "sort_order": 3
+      },
+      {
+        "title": "Set up custom Fingerprinting rules",
+        "resource_url": "https://docs.sentry.io/product/data-management-settings/event-grouping/fingerprint-rules/",
+        "resource_label": "Fingerprinting Docs",
+        "is_optional": true,
+        "sort_order": 4
+      },
+      {
+        "title": "Configure Issue Alerts",
+        "resource_url": "https://docs.sentry.io/product/alerts/alert-types/#issue-alerts",
+        "resource_label": "Issue Alerts Docs",
+        "is_optional": false,
+        "sort_order": 5
+      },
+      {
+        "title": "Configure Metric Alerts",
+        "resource_url": "https://docs.sentry.io/product/alerts/alert-types/#metric-alerts",
+        "resource_label": "Metric Alerts Docs",
+        "is_optional": false,
+        "sort_order": 6
+      },
+      {
+        "title": "Configure Uptime Alerts",
+        "resource_url": "https://docs.sentry.io/product/alerts/uptime-monitoring/",
+        "resource_label": "Uptime Monitoring Docs",
+        "is_optional": true,
+        "sort_order": 7
+      },
+      {
+        "title": "Build a custom Dashboard",
+        "resource_url": "https://docs.sentry.io/product/dashboards/",
+        "resource_label": "Dashboards Docs",
+        "is_optional": false,
+        "sort_order": 8
+      },
+      {
+        "title": "Create Discover queries for key metrics",
+        "resource_url": "https://docs.sentry.io/product/explore/discover-queries/",
+        "resource_label": "Discover Docs",
+        "is_optional": false,
+        "sort_order": 9
+      },
+      {
+        "title": "Enable and review Seer (AI-powered issue analysis)",
+        "resource_url": "https://docs.sentry.io/product/explore/seer/",
+        "resource_label": "Seer Docs",
+        "is_optional": false,
+        "sort_order": 10
+      },
+      {
+        "title": "Set up repos for Seer Autofix",
+        "resource_url": "https://docs.sentry.io/product/explore/seer/",
+        "resource_label": "Seer Autofix Docs",
+        "is_optional": false,
+        "sort_order": 11
+      }
+    ]
+  },
+  {
+    "phase_number": 5,
+    "title": "Setup Integrations",
+    "description": "Connect Sentry with your team's existing tools for notifications, issue tracking, and source code management.",
+    "tasks": [
+      {
+        "title": "Install Slack Integration",
+        "resource_url": "https://docs.sentry.io/organization/integrations/notification/slack/",
+        "resource_label": "Slack Integration Docs",
+        "is_optional": false,
+        "sort_order": 1
+      },
+      {
+        "title": "Configure Slack alert routing to channels",
+        "resource_url": "https://docs.sentry.io/organization/integrations/notification/slack/",
+        "resource_label": "Slack Integration Docs",
+        "is_optional": false,
+        "sort_order": 2
+      },
+      {
+        "title": "Install GitHub Integration",
+        "resource_url": "https://docs.sentry.io/organization/integrations/source-code-mgmt/github/",
+        "resource_label": "GitHub Integration Docs",
+        "is_optional": false,
+        "sort_order": 3
+      },
+      {
+        "title": "Link repositories for stack trace linking",
+        "resource_url": "https://docs.sentry.io/organization/integrations/source-code-mgmt/github/#stack-trace-linking",
+        "resource_label": "Stack Trace Linking Docs",
+        "is_optional": false,
+        "sort_order": 4
+      },
+      {
+        "title": "Configure Suspect Commits",
+        "resource_url": "https://docs.sentry.io/product/issues/suspect-commits/",
+        "resource_label": "Suspect Commits Docs",
+        "is_optional": false,
+        "sort_order": 5
+      },
+      {
+        "title": "Install Jira Integration",
+        "resource_url": "https://docs.sentry.io/organization/integrations/issue-tracking/jira/",
+        "resource_label": "Jira Integration Docs",
+        "is_optional": true,
+        "sort_order": 6
+      },
+      {
+        "title": "Configure Jira issue creation from Sentry",
+        "resource_url": "https://docs.sentry.io/organization/integrations/issue-tracking/jira/",
+        "resource_label": "Jira Integration Docs",
+        "is_optional": true,
+        "sort_order": 7
+      },
+      {
+        "title": "Install PagerDuty Integration",
+        "resource_url": "https://docs.sentry.io/organization/integrations/notification/pagerduty/",
+        "resource_label": "PagerDuty Integration Docs",
+        "is_optional": true,
+        "sort_order": 8
+      },
+      {
+        "title": "Set up GitHub Actions for Release Management",
+        "resource_url": "https://docs.sentry.io/product/releases/setup/release-automation/github-actions/",
+        "resource_label": "GitHub Actions Release Docs",
+        "is_optional": true,
+        "sort_order": 9
+      }
+    ]
+  }
+]
