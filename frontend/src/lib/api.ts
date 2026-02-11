@@ -1,3 +1,5 @@
+import * as Sentry from '@sentry/nextjs';
+
 const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000/api/v1';
 
 class ApiError extends Error {
@@ -7,14 +9,27 @@ class ApiError extends Error {
 }
 
 async function apiClient<T>(path: string, options?: RequestInit): Promise<T> {
-  const res = await fetch(`${API_BASE}${path}`, {
-    headers: { 'Content-Type': 'application/json', ...options?.headers },
-    ...options,
-  });
+  let res: Response;
+  try {
+    res = await fetch(`${API_BASE}${path}`, {
+      headers: { 'Content-Type': 'application/json', ...options?.headers },
+      ...options,
+    });
+  } catch (networkError) {
+    // Network-level failure (backend unreachable, DNS failure, CORS, etc.)
+    Sentry.captureException(networkError, {
+      tags: { api_path: path, api_method: options?.method || 'GET' },
+    });
+    throw networkError;
+  }
   if (!res.ok) {
     let data;
     try { data = await res.json(); } catch { data = { detail: res.statusText }; }
-    throw new ApiError(res.status, data);
+    const error = new ApiError(res.status, data);
+    Sentry.captureException(error, {
+      tags: { api_path: path, api_method: options?.method || 'GET', api_status: res.status },
+    });
+    throw error;
   }
   if (res.status === 204) return undefined as T;
   return res.json();
